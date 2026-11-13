@@ -1,0 +1,170 @@
+.main-content {
+  width: 940px;
+  margin: 6px auto;
+  margin-bottom: 0px;
+}
+.content1 {
+  display: flex;
+  padding: 40px 10px 20px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+.affordable-prices, .fast-service, .extended-warranty {
+  display: flex;
+  justify-content: space-between;
+}
+.fast-service {
+  padding: 0 40px;
+}
+.affordable-prices div:first-child, 
+.fast-service div:first-child, 
+.extended-warranty div:first-child {
+  padding-right: 10px;
+}
+.affordable-prices div h2, 
+.fast-service div h2, 
+.extended-warranty div h2 {
+  margin-top: 0px;
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 0px 0px 16px;
+}
+.affordable-prices div h2 a, 
+.fast-service div h2 a,
+.extended-warranty div h2 a {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+.affordable-prices div h2 a:hover,
+.fast-service div h2 a:hover,
+.extended-warranty div h2 a:hover {
+  color: #fcac00;
+}
+.affordable-prices div p, 
+.fast-service div p,
+.extended-warranty div p {
+  color: #7a7a7a;
+  font-size: 13px;
+  line-height: 24px;
+}
+.affordable-prices div p a,
+.fast-service div p a,
+.extended-warranty div p a {
+  color: #7a7a7a;
+  /* text-decoration: none; */
+}
+.affordable-prices div p a:hover,
+.fast-service div p a:hover,
+.extended-warranty div p a:hover {
+  color: #4c4c4c;
+}
+.content2 {
+  display: flex;
+  background: #fff;
+  margin-bottom: 0px;
+  text-align: right;
+  padding: 0px 20px 0px 0px;
+}
+.content2 > div:last-child {
+  padding-left: 30px;
+}
+.content2 div img {
+  height: 100%;
+  width: auto;
+}
+.content2 div h1 {
+  color: #7a7a7a;
+  text-transform: uppercase;
+  font-size: 62px;
+  line-height: 60px;
+	padding: 45px 0px 0px 0px;
+}
+.content2 div h1 span {
+  display: block;
+  font-size: 38px;
+}
+.content2 div p {
+  color: #7a7a7a;
+  font-size: 13px;
+  line-height: 24px;
+  padding: 40px 0px 50px 0px;
+}
+.content2 div p a {
+  color: #fcac00;
+  text-decoration: none;
+}
+.content2 div p a:hover {
+  color: #f3be4b;
+}
+.content2 div button {
+  background: url("../images/interface.png") no-repeat 0 -530px;
+  border: none;
+  color: #fff;
+  width: 402px;
+  height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  cursor: pointer;
+}
+.content2 div button:hover {
+  background-position: 0 -585px;
+}
+.content3-container {
+  background: #e9e9e9;
+  margin: 8px 0px;
+}
+.content3 {
+  width: 940px;
+  margin: 0 auto;
+}
+.content3-container .content3 h3 {
+  background: url("../images/border.png") repeat-x 0 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #7a7a7a;
+  font-size: 21px;
+  padding: 20px 0;
+}
+.content3-container .content3 h3 span {
+  background: #e9e9e9;
+  padding: 0 20px;
+}
+ .featured-services-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 40px;
+  padding: 10px 0 30px 0px;
+ }
+ .content3 div.featured-services-container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.content3 div div:first-child {
+  padding-right:20px;
+}
+.content3  h4 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.content3 h4 a {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+.content3 h4 a:hover {
+  color: #fcac00;
+}
+.content3 p {
+  color: #7a7a7a;
+  font-size: 13px;
+  line-height: 24px;
+}
+.contnent3  p a {
+  color: #7a7a7a;
+}
+.content3 p a:hover {
+  color: #4c4c4c;
+}
